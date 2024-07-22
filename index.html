@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="./completado.html">
+    <div>
+        <label for="nombre">NOMBRE</label><br>
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+    </div> 
+    <div>
+        <label for="direccion">DIRECCIÓN</label><br>
+            <input type="text" name="direccion" id="direccion" required>
+            <br><br>
+    </div>   
+    <div>
+        <label for="especialidad">ESPECIALIDA MEDICA</label><br>
+                <select name="especialidad" name="especialidad" required>
+                    <option value="medicina_interna">MEDICINA INTERNA</option>
+                    <option value="medicina_general">MEDICINA GENERAL</option>
+                    <option value="traumatologia">TRAUMATOLOGIA</option>
+                    <option value="nutricionista">NUTRICIONISTA</option>
+                </select>
+                <br><br>
+    </div>         
+    <div>
+        <label for="date">FECHA</label><br>
+            <input type="date" name="fecha" required>  
+            <br><br>  
+    </div>
+    <div>
+        <label for="time">Seleccione una Hora:</label><br>
+            <input type="time" id="time" name="time" required>  
+            <br><br>   
+    </div>
+    <div>
+        <label for="email">CORREO</label><br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+    </div>
+        <button type="submit">CONFIRMAR</button><br><br>
+    </form>
+</body>
+</html>
